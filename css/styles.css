@@ -1,0 +1,36 @@
+/* Main styles */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&Roboto:300');
+
+/* Variables */
+
+
+/* main */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 3rem;
+  min-height: 100vh;
+  min-width: 280px;
+  background-color: #99aab5;
+}
+
+input {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #7289da;
+  color: #fff;
+}
+
+
+
+

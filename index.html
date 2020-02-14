@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Wind Chill</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+    <h1>Calculate the wind chill factor!</h1>
+    <h2>Please select temperature measurement</h2>
+<input type="radio" id="celsius" name="measure" value="celsius" checked="checked">
+<label for="celsius">Celsius</label><br>
+<input type="radio" id="fahrenheit" name="measure" value="fahrenheit">
+<label for="fahrenheit">Fahrenheit</label>
+    <h2>Temperature in <span id="measure">degrees celsius</span></h2>
+    <input id="temp" />
+    <h2>Wind Velocity (km/h)</h2>
+    <input id="wind"/> <br>
+    <button id="btn" type="button">Calculate Wind Chill Factor!</button>
+    <h1>Wind Chill Factor in <span id="result">degrees celsius</span></h1>
+    <input id="wcf"/>
+  </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
